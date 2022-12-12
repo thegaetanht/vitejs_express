@@ -1,0 +1,19 @@
+{
+  "name": "vites_server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start":"node app.js"
+  },
+  "devDependencies": {
+    "sass": "^1.56.2",
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
